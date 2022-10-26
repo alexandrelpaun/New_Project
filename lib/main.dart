@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:proiect_nou/AppBarDemo.dart';
 
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,11 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      home: AppBarDemo(),
-      theme:ThemeData.dark()
-    );
-      
+    return MaterialApp(home: AppBarDemo(), theme: ThemeData.light());
   }
 }
-
